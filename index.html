@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRAINING TRAINS SOFTWARE TECHNOLOGY&INSITUTE</title>
-    <link rel ="icon" href="data.png.jpg">
-    <link rel ="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class ="header">
-        <nav>
-            <h1>TRAINING TRAIN</h1>
-            <ul>
-                <li>home|</li>
-                <li>course|</li>
-                <li>abouts|</li>
-                <li>contants</li>   
-            </ul>
-        </nav>
+    <div id ="calculator">
+        <input id ="display"readonly>
+        <div id ="key">
+            <button on click="appendtodisplay("1")">1</button>
+            <button on click="appendtodisplay("2")">2</button>
+            <button on click="appendtodisplay("3")">3</button>
+            <button on click="appendtodisplay("+")" class='operator-btn'>+</button>
+            <button on click="appendtodisplay("4")">4</button>
+            <button on click="appendtodisplay("5")">5</button>
+            <button on click="appendtodisplay("6")">6</button>
+            <button on click="appendtodisplay("_")" class='operator-btn'>_</button>
+            <button on click="appendtodisplay("7")">7</button>
+            <button on click="appendtodisplay("8")">8</button>
+            <button on click="appendtodisplay("9")">9</button>
+            <button on click="appendtodisplay("*")" class='operator-btn'>*</button>
+            <button on click="appendtodisplay("0")">0</button>
+            <button on click="appendtodisplay("/")" class='operator-btn'>/</button>
+            <button on click="calculate">=</button>
+            <button on click="cleardisplay()" class='operator-btn' >C</button>
+        </div>
 
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
